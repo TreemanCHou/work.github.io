@@ -42,5 +42,11 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+defaults:
+  - scope:
+        path: "assets/img"
+    values:
+        image: true
+
 # powered_by: false
 
